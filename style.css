@@ -21,4 +21,17 @@ body {
     body {
         background-image: url(assets/bg-main-desktop.png);
     }
-  }
+}
+
+.header-logo {
+    position: fixed;
+    left: 0;
+    top: 0;
+    margin: 3rem;
+}
+
+.header-image {
+    position: fixed;
+    right: 0;
+    top: 0;
+}
