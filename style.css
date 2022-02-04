@@ -19,7 +19,7 @@ body {
 
 @media only screen and (min-width: 900px) {
     body {
-        background-image: url(assets/bg-main-desktop.png);
+        background: url(assets/bg-main-desktop.png) no-repeat center center fixed;
     }
 }
 
@@ -27,11 +27,69 @@ body {
     position: fixed;
     left: 0;
     top: 0;
-    margin: 3rem;
+    margin-top: 3rem;
+    margin-left: 4rem;
 }
 
 .header-image {
     position: fixed;
     right: 0;
     top: 0;
+    width: 18vh;
+}
+
+.main-heading {
+    position: fixed;
+    top: 8vh;
+    left: 8rem;
+}
+
+.main-heading h1 {
+    font-size: 60px;
+    max-width: 40rem;
+}
+
+.main-heading p {
+    font-size: 15px;
+    max-width: 40rem;
+}
+
+.main-info {
+    background-color: #191826;
+    height: 25rem;
+    width: 80vw;
+    border-radius: 10px;
+    margin-top: 22vh;
+}
+
+.phone-screen {
+    position: relative;
+    height: 25rem;
+    left: 6rem;
+    bottom: 8rem;
+    z-index: 1;
+}
+
+.center-background {
+    position: relative;
+    margin-left: 1rem;
+    bottom: 10vh;
+    height: 20rem;
+}
+
+.info-panel {
+    position: relative;
+    background-color: #FA7453;
+    width: 18rem;
+    height: 25rem;
+    bottom: 30vh;
+    left: 40rem;
+    color: white;
+    padding: 1rem;
+}
+
+
+.footer {
+    position: fixed;
+    bottom: 0;
 }
