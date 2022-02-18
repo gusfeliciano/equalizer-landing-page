@@ -10,7 +10,6 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 100vh;
     margin: 0;
     background: url(assets/bg-main-desktop.png) no-repeat center center fixed;
 }
@@ -34,28 +33,31 @@ body {
         width: 18vh;
     }
 
+    .main-content {
+        max-width: 960px;
+        margin: auto;
+    }
+
     .main-heading {
         position: absolute;
-        top: 8vh;
-        left: 8rem;
+        top: 5rem;
+        max-width: 40rem;
     }
 
     .main-heading h1 {
         font-size: 60px;
-        max-width: 40rem;
     }
 
     .main-heading p {
         font-size: 15px;
-        max-width: 40rem;
     }
 
     .main-info {
         background-color: #191826;
         position: relative;
-        top: 10vh;
+        top: 32rem;
         height: 25rem;
-        width: 80vw;
+        width: 50rem;
         border-radius: 10px;
     }
 
@@ -80,7 +82,7 @@ body {
         width: 18rem;
         height: 26rem;
         bottom: 30vh;
-        left: 45vw;
+        left: 50%;
         color: white;
         padding: 1rem;
         border-radius: 10px;
@@ -138,30 +140,26 @@ body {
     }
 
     .footer {
-        display: flex;
-        position: absolute;
-        bottom: 5vh;
+        position: relative;
+        bottom: 0;
+        width: 100vw;
+        min-height: 3vh;
     }
 
     .footer-logo {
-        position: fixed;
-        left: 0;
-        margin-left: 4rem;
+
     }
 
     .footer-info {
-        width: 350px;
+
     }
 
     .footer-icons {
-        display: flex;
-        align-items: center;
-        position: absolute;
-        left: 50vw;
+
     }
 
     .footer-icons img {
-        padding: 5px;
+
     }
 
 }
