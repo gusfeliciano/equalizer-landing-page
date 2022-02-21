@@ -17,7 +17,7 @@ img {
 
 .container {
     max-width: 1100px;
-    margin: 0 auto;
+    margin: 0 10%;
 }
 
 .navbar {
@@ -52,18 +52,26 @@ img {
 
 .info .container {
     background-color: #191826;
-    max-height: 600px;
+    height: 400px;
+    width: 900px;
     border-radius: 12px;
-    margin-top: 10rem;
-    display: flex;
+    margin-top: 12rem;   
 }
 
 .info .phone-screen {
-    max-height: 600px;
+    max-height: 450px;
     position: relative;
-    margin-top: -100px;
-    margin-left: 50px;
+    margin-top: -150px;
+    margin-left: 90px;
+    z-index: 5;
 }
 
+.info .center-background {
+    max-height: 300px;
+    margin-top: -20px;
+    margin-left: -50px;
+}
 
+.info .info-panel {
 
+}
