@@ -6,160 +6,64 @@
 
 body {
     font-family: 'Outfit', sans-serif;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin: 0;
     background: url(assets/bg-main-desktop.png) no-repeat center center fixed;
 }
 
 /*full size desktop css*/
 
-@media only screen and (min-width: 900px) {
-
-    .header-logo {
-        position: absolute;
-        left: 0;
-        top: 0;
-        margin-top: 3rem;
-        margin-left: 4rem;
-    }
-
-    .header-image {
-        position: absolute;
-        right: 0;
-        top: 0;
-        width: 18vh;
-    }
-
-    .main-content {
-        max-width: 960px;
-        margin: auto;
-    }
-
-    .main-heading {
-        position: absolute;
-        top: 5rem;
-        max-width: 40rem;
-    }
-
-    .main-heading h1 {
-        font-size: 60px;
-    }
-
-    .main-heading p {
-        font-size: 15px;
-    }
-
-    .main-info {
-        background-color: #191826;
-        position: relative;
-        top: 32rem;
-        height: 25rem;
-        width: 50rem;
-        border-radius: 10px;
-    }
-
-    .phone-screen {
-        position: relative;
-        height: 25rem;
-        left: 6rem;
-        bottom: 8rem;
-        z-index: 1;
-    }
-
-    .center-background {
-        position: relative;
-        margin-left: 1rem;
-        bottom: 10vh;
-        height: 20rem;
-    }
-
-    .info-panel {
-        position: relative;
-        background-color: #FA7453;
-        width: 18rem;
-        height: 26rem;
-        bottom: 30vh;
-        left: 50%;
-        color: white;
-        padding: 1rem;
-        border-radius: 10px;
-    }
-
-    .price {
-        display: flex;
-        align-items: center;
-        margin-bottom: 1rem;
-    }
-
-    .price-number {
-        font-size: 3rem;
-        margin-right: 1rem;
-    }
-
-    .info-btn {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .info-btn button {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .info-btn button img {
-        margin-right: 5px;
-    }
-
-    .ios {
-        background-color: black;
-        border: none;
-        color: white;
-        padding: 15px 32px;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        font-size: 16px;
-        border-radius: 10px;
-        margin-bottom: 1rem;
-    }
-
-    .android {
-        background-color: white;
-        border: none;
-        color: black;
-        padding: 15px 32px;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        font-size: 16px;
-        border-radius: 10px;
-    }
-
-    .footer {
-        position: relative;
-        bottom: 0;
-        width: 100vw;
-        min-height: 3vh;
-    }
-
-    .footer-logo {
-
-    }
-
-    .footer-info {
-
-    }
-
-    .footer-icons {
-
-    }
-
-    .footer-icons img {
-
-    }
-
+img {
+    max-width: 100%;
 }
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.navbar {
+    height: 60px;
+}
+
+.navbar .logo {
+    max-height: 35px;
+    margin-top: 35px;
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.navbar .nav-image{
+    min-height: 300px;
+    margin-top: -35px;
+}
+
+.header h1 {
+    font-size: 70px;
+    font-weight: bold;
+    line-height: 90%;
+}
+
+.header p {
+    line-height: 1.5rem;
+}
+
+.info .container {
+    background-color: #191826;
+    max-height: 600px;
+    border-radius: 12px;
+    margin-top: 10rem;
+    display: flex;
+}
+
+.info .phone-screen {
+    max-height: 600px;
+    position: relative;
+    margin-top: -100px;
+    margin-left: 50px;
+}
+
+
+
