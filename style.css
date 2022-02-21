@@ -248,18 +248,25 @@ img {
         margin: 0;
         margin-top: 25%;
         max-width: 100%;
+        background-color: #fff;
+    }
+
+    .info .phone-info {
+        background-color: #191826;
+        min-width: 100vw;
+        border-radius: 12px;
     }
 
     .info .phone-screen {
         max-height: 300px;
         margin-top: -15%;
-        margin-left: -20%;
+        margin-left: 30%;
     }
 
     .info .center-background {
         min-width: 150px;
         margin-top: 0;
-        margin-left: -25%;
+        margin-left: 30%;
     }
 
     .info .info-panel {
