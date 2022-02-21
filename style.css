@@ -44,6 +44,10 @@ img {
     
 }
 
+.header .container {
+    max-width: 800px;
+}
+
 .header h1 {
     font-size: 70px;
     font-weight: bold;
@@ -52,6 +56,7 @@ img {
 
 .header p {
     line-height: 1.5rem;
+    max-width: 650px;
 }
 
 .info .container {
@@ -158,6 +163,7 @@ img {
 }
 
 .footer .container {
+    max-width: 900px;
     display: flex;
     justify-content: space-between;
     margin-top: 180px;
@@ -181,4 +187,92 @@ img {
 .footer .footer-icons img:hover {
     background-color: #FA7453;
     cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .container {
+        max-width: 600px;
+    }
+
+    .header h1 {
+        font-size: 45px;
+        font-weight: bold;
+        line-height: 90%;
+        max-width: 400px;
+    }
+    
+    .header p {
+        max-width: 425px;
+        line-height: 1.5rem;
+    }
+
+    .info .phone-screen {
+        position: absolute;
+        margin-left: -150px;
+    }
+
+    .info .info-panel {
+        position: absolute;
+        margin-left: 200px;
+    }
+
+    .info .center-background {
+        position: absolute;
+        margin-top: auto;
+    }
+
+    .footer .container {
+        display: grid;
+        grid-template-columns: 300px 200px;
+        grid-gap: 20px;
+        justify-items: stretch;
+        align-items: stretch;
+    }
+
+    .footer .footer-info{
+        grid-column-end: 2;
+    }
+
+    .footer .footer-icons {
+        grid-column-end: 3;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 375px ) {
+    .navbar .nav-image {
+        display: none;
+    }
+
+    .info .container {
+        margin: 0;
+        margin-top: 25%;
+        max-width: 100%;
+    }
+
+    .info .phone-screen {
+        max-height: 300px;
+        margin-top: -15%;
+        margin-left: -20%;
+    }
+
+    .info .center-background {
+        min-width: 150px;
+        margin-top: 0;
+        margin-left: -25%;
+    }
+
+    .info .info-panel {
+        margin: 0;
+        margin-top: 75%;
+        min-width: 100%;
+        z-index: 1;
+    }
+    
+    .footer .container{
+        margin-top: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
 }
